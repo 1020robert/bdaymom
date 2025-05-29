@@ -1,0 +1,60 @@
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  background-color: #000;
+}
+
+.letter-page {
+  background: url('images/IMG_3183.JPG') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.letter {
+  max-width: 700px;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 30px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.letter h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.letter .signature {
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+a.person-zone {
+  position: absolute;
+  display: block;
+  border-radius: 50%;
+  transition: box-shadow 0.3s;
+}
+
+a.person-zone:hover {
+  box-shadow: 0 0 15px 5px rgba(255, 255, 0, 0.6);
+}
+
+.gallery-link, .back-link {
+  display: inline-block;
+  margin-top: 30px;
+  text-decoration: none;
+  color: #ffd700;
+  font-weight: bold;
+}
